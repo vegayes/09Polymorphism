@@ -46,6 +46,7 @@ public class Car {
 	// Object.toString() 오버라이딩
 	@Override // 오버라이딩했다는걸 알려주는 Override 어노테이션
 	public String toString() {
+		
 		return engine + " / " + fuel + " / " + wheel;
 	}
 	
